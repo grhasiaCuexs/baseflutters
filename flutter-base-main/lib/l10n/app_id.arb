@@ -1,0 +1,51 @@
+{
+    "app_name": "App Name",
+    "general_required": "{field_param} {isRequiredParam}",
+    "@general_required": {
+         "placeholders": {
+             "field_param": {
+                 "type": "String"
+             },
+             "isRequiredParam": {
+                 "type": "String"
+             }
+         }
+     },
+    "helloWorld": "Halo Dunia!",
+    "is_required": "harus diisi",
+    "password": "Kata Sandi",
+    "email": "Email",
+    "emailRequired": "{emailParam} {isRequiredParam}",
+    "@emailRequired": {
+        "placeholders": {
+            "emailParam": {
+                "type": "String"
+            },
+            "isRequiredParam": {
+                "type": "String"
+            }
+        }
+    },
+    "emailIsInvalid": "Email salah",
+    "passwordRequired": "{passwordParam} {isRequiredParam}",
+    "@passwordRequired": {
+        "placeholders": {
+            "passwordParam": {
+                "type": "String"
+            },
+            "isRequiredParam": {
+                "type": "String"
+            }
+        }
+    },
+    "data_not_found": "Data tidak ditemukan!",
+    "sign_in": "Masuk",
+    "empty_data": "Data tidak tersedia",
+    "base_error_message": "Maaf terjadi kesalahan. Silahkan coba untuk beberapa saat lagi atau Silahkan hubungi kontak support kami!",
+    "server_error_message": "Maaf terjadi kesalahan pada server. Silahkan hubungi kontak support kami!",
+    "network_error_message": "Maaf terjadi kesalahan pada jaringan. Silahkan cek jaringan anda atau coba untuk beberapa saat lagi.",
+    "bad_request_message": "Maaf terjadi kesalahan ketika mengirim permintaan ke server. Silahkan hubungi kontak support kami!",
+    "page_not_found_message": "Maaf permintaan ke server tidak ditemukan. Silahkan hubungi kontak support kami!",
+    "unauthorized_error_message": "Maaf anda tidak memiliki otoritas untuk mengakses halaman ini. Lakukan login ulang untuk melanjutkan!",
+    "sign_in_success": "Login Berhasil!"
+}

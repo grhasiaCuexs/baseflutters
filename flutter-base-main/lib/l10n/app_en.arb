@@ -1,0 +1,51 @@
+{
+    "app_name": "App Name",
+    "general_required": "{field_param} {isRequiredParam}",
+    "@general_required": {
+         "placeholders": {
+             "field_param": {
+                 "type": "String"
+             },
+             "isRequiredParam": {
+                 "type": "String"
+             }
+         }
+     },
+    "helloWorld": "Hello World!",
+    "is_required": "is required",
+    "password": "Password",
+    "email": "Email",
+    "emailRequired": "{emailParam} {isRequiredParam}",
+    "@emailRequired": {
+        "placeholders": {
+            "emailParam": {
+                "type": "String"
+            },
+            "isRequiredParam": {
+                "type": "String"
+            }
+        }
+    },
+    "emailIsInvalid": "Email is invalid",
+    "passwordRequired": "{passwordParam} {isRequiredParam}",
+    "@passwordRequired": {
+        "placeholders": {
+            "passwordParam": {
+                "type": "String"
+            },
+            "isRequiredParam": {
+                "type": "String"
+            }
+        }
+    },
+    "data_not_found": "Data not found!",
+    "sign_in": "Sign In",
+    "empty_data": "Empty Data",
+    "base_error_message": "Oops, something went wrong. Please try again later or contact our support!",
+    "server_error_message": "Sorry, an error occurred on the server. Please contact our support!",
+    "network_error_message": "Sorry, an error occurred on network. Please check your connection or try again later.",
+    "bad_request_message": "Sorry, an error occurred while sending the request to the server. Please contact our support!",
+    "page_not_found_message": "Sorry, the request to the server was not found. Please contact our support!",
+    "unauthorized_error_message": "Sorry, your authorization failed. Please re-login to continue!",
+    "sign_in_success": "Login Success!"
+}
